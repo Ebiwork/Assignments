@@ -1,0 +1,601 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.fist_section {
+  width: 100%;
+  height: 600px;
+  margin-top: -20px;
+  background-image: url("./images/first_image.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+header {
+  display: flex;
+  /* background-color: green; */
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 100;
+}
+.header1 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+}
+
+.header1 ul {
+  display: inline-flex;
+  margin-left: 1050px;
+  padding: 20px;
+}
+
+.header1 li {
+  width: 100px;
+  padding: 0 5px;
+  font-weight: bold;
+  list-style-type: none;
+}
+/* end of the side list in the header section */
+
+/* begining of center list items */
+.header2 {
+  display: flex;
+  position: absolute;
+  width: 70%;
+  height: 100px;
+  /* background-color: yellow; */
+}
+
+.header2 ul {
+  display: inline-flex;
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.header2 li {
+  width: 100px;
+  padding: 0 8px;
+  font-weight: bold;
+  list-style-type: none;
+}
+/* end of styling list items */
+
+/* begining hero header one */
+.hero {
+  position: absolute;
+  margin-top: 92px;
+  text-align: center;
+  font-size: 52px;
+  left: 600px;
+}
+/*  end of header one */
+
+/* logo design */
+.thelogo {
+  position: absolute;
+  top: 7px;
+  left: 30px;
+  font-size: 27px;
+}
+/* text area after the h1 */
+.text {
+  position: absolute;
+  margin-top: 150px;
+  text-align: center;
+  font-size: 14px;
+  left: 590px;
+  word-spacing: 7px;
+  font-weight: lighter;
+}
+
+.first_span {
+  text-decoration: underline;
+}
+/* end of text area */
+
+/* designing the box area (first box) */
+.first_box {
+  position: relative;
+  width: 17%;
+  height: 12px;
+  background-color: rgb(70, 68, 68);
+  top: 440px;
+  left: 400px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.box_word {
+  position: absolute;
+  left: 70px;
+  color: #fff;
+  margin-top: -5px;
+  word-spacing: 5px;
+  font-size: 16px;
+}
+
+.first_box a {
+  text-decoration: none;
+}
+/* end of first box design */
+
+/* starting the second box design */
+.first_box2 {
+  position: relative;
+  width: 17%;
+  height: 12px;
+  background-color: #fff;
+  top: 407px;
+  left: 660px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.box_word2 {
+  position: absolute;
+  left: 70px;
+  color: rgb(70, 68, 68);
+  margin-top: -5px;
+  word-spacing: 5px;
+  font-size: 16px;
+}
+
+.first_box2 a {
+  text-decoration: none;
+}
+/* end of designing second box */
+
+/* second image */
+.next_section {
+  width: 100%;
+  height: 600px;
+  margin-top: -54px;
+  background-image: url("./images/blue_car_next.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+/* end of second image */
+
+/* designing model y */
+.model_y {
+  position: absolute;
+  top: 50px;
+  left: 600px;
+  font-size: 50px;
+  word-spacing: 10px;
+}
+/* end of model y */
+
+/* desinging the text under model y */
+.model_y_text {
+  position: absolute;
+  margin-top: 150px;
+  text-align: center;
+  font-size: 14px;
+  left: 590px;
+  word-spacing: 7px;
+  font-weight: lighter;
+}
+/* end of text area */
+
+/* span for underline  */
+.modely_span {
+  text-decoration: underline;
+}
+/* end of span */
+
+.model_y_box {
+  position: relative;
+  width: 17%;
+  height: 12px;
+  background-color: rgb(70, 68, 68);
+  top: 490px;
+  left: 400px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.model_y_box_word {
+  position: absolute;
+  left: 70px;
+  color: #fff;
+  margin-top: -5px;
+  word-spacing: 5px;
+  font-size: 16px;
+}
+
+.model_y_box2 {
+  position: relative;
+  width: 17%;
+  height: 12px;
+  background-color: #fff;
+  top: 460px;
+  left: 660px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.model_Y_word2 {
+  position: absolute;
+  left: 70px;
+  color: rgb(70, 68, 68);
+  margin-top: -5px;
+  word-spacing: 5px;
+  font-size: 16px;
+}
+
+/* third image  */
+.third_section {
+  width: 100%;
+  height: 600px;
+  margin-top: -30px;
+  background-image: url("./images/third_car.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.third_model_s {
+  position: absolute;
+  top: 50px;
+  left: 600px;
+  font-size: 50px;
+  word-spacing: 10px;
+}
+
+.third_model_text {
+  position: absolute;
+  margin-top: 150px;
+  text-align: center;
+  font-size: 14px;
+  left: 590px;
+  word-spacing: 7px;
+  font-weight: lighter;
+}
+
+.third_span {
+  text-decoration: underline;
+}
+
+/*begining thrid box design */
+.third_modelbox {
+  position: relative;
+  width: 17%;
+  height: 12px;
+  background-color: rgb(70, 68, 68);
+  top: 490px;
+  left: 400px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.third_modelbox .third_modelbox_word {
+  position: absolute;
+  left: 70px;
+  color: #fff;
+  margin-top: -5px;
+  word-spacing: 5px;
+  font-size: 16px;
+}
+
+.third_modelbox .third_modelbox_word {
+  text-decoration: none;
+}
+
+.third_modelbox2 {
+  position: relative;
+  width: 17%;
+  height: 12px;
+  background-color: #fff;
+  top: 460px;
+  left: 670px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.third_modelbox2 .third_modelbox_word2 {
+  position: absolute;
+  left: 70px;
+  color: rgb(70, 68, 68);
+  margin-top: -5px;
+  word-spacing: 5px;
+  font-size: 16px;
+}
+
+.third_modelbox2 .third_modelbox_word2 {
+  text-decoration: none;
+}
+/* ..........beging of the white car(the fouth car)........  */
+.whitecar_section {
+  width: 100%;
+  height: 600px;
+  margin-top: -15px;
+  background-image: url("./images/white_car.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.whitecar_x {
+  position: absolute;
+  top: 50px;
+  left: 600px;
+  font-size: 50px;
+  word-spacing: 10px;
+}
+
+.whitecar_text {
+  position: absolute;
+  margin-top: 150px;
+  text-align: center;
+  font-size: 14px;
+  left: 590px;
+  word-spacing: 7px;
+  font-weight: lighter;
+}
+
+.whitecar_span {
+  text-decoration: underline;
+}
+
+.whitecar_box {
+  position: relative;
+  width: 17%;
+  height: 12px;
+  background-color: rgb(70, 68, 68);
+  top: 490px;
+  left: 400px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.whitecar_box .whitecar_boxtext {
+  position: absolute;
+  left: 70px;
+  color: #fff;
+  margin-top: -5px;
+  word-spacing: 5px;
+  font-size: 16px;
+}
+
+.whitecar_box2 {
+  position: relative;
+  width: 17%;
+  height: 12px;
+  background-color: #fff;
+  top: 460px;
+  left: 670px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.whitecar_box2 .whitecar_boxtext2 {
+  position: absolute;
+  left: 70px;
+  color: rgb(70, 68, 68);
+  margin-top: -5px;
+  word-spacing: 5px;
+  font-size: 16px;
+}
+/*.................. end of the white care section............ */
+
+.first_house {
+  width: 100%;
+  height: 600px;
+  margin-top: -15px;
+  background-image: url("./images/first_house.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.solar_house {
+  position: absolute;
+  top: 50px;
+  left: 600px;
+  font-size: 50px;
+  word-spacing: 3px;
+}
+
+.solar_text {
+  position: absolute;
+  margin-top: 150px;
+  text-align: center;
+  font-size: 14px;
+  left: 590px;
+  word-spacing: 5px;
+  font-weight: lighter;
+}
+
+.solar_box {
+  position: relative;
+  width: 17%;
+  height: 12px;
+  background-color: rgb(70, 68, 68);
+  top: 490px;
+  left: 400px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.solar_boxtext {
+  position: absolute;
+  left: 70px;
+  color: #fff;
+  margin-top: -5px;
+  word-spacing: 5px;
+  font-size: 16px;
+}
+.solar_boxtext {
+  text-decoration: none;
+}
+/* end of designing the fist box ......*/
+
+.solar_box_two {
+  position: relative;
+  width: 17%;
+  height: 12px;
+  background-color: #fff;
+  top: 460px;
+  left: 670px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.solar_boxtext_two {
+  position: absolute;
+  left: 70px;
+  color: rgb(70, 68, 68);
+  margin-top: -5px;
+  word-spacing: 5px;
+  font-size: 16px;
+}
+
+.solar_boxtext_two {
+  text-decoration: none;
+}
+/* end of designing the second box */
+
+.last_house {
+  width: 100%;
+  height: 600px;
+  margin-top: -20px;
+  background-image: url("./images/last_house.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.last_house_two {
+  position: absolute;
+  top: 50px;
+  left: 600px;
+  font-size: 50px;
+  word-spacing: 3px;
+}
+
+.lasthouse_text {
+  position: absolute;
+  margin-top: 150px;
+  text-align: center;
+  font-size: 14px;
+  left: 590px;
+  word-spacing: 3px;
+  font-weight: lighter;
+}
+
+.last_box {
+  position: relative;
+  width: 17%;
+  height: 12px;
+  background-color: rgb(70, 68, 68);
+  top: 490px;
+  left: 400px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.last_boxtext {
+  position: absolute;
+  left: 70px;
+  color: #fff;
+  margin-top: -5px;
+  word-spacing: 5px;
+  font-size: 16px;
+}
+
+.last_boxtext {
+  text-decoration: none;
+}
+
+.last_box_two {
+  position: relative;
+  width: 17%;
+  height: 12px;
+  background-color: #fff;
+  top: 458px;
+  left: 660px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.last_boxtext_two {
+  position: absolute;
+  left: 70px;
+  color: rgb(70, 68, 68);
+  margin-top: -5px;
+  word-spacing: 5px;
+  font-size: 16px;
+}
+
+.last_boxtext_two {
+  text-decoration: none;
+}
+
+.accessories {
+  width: 100%;
+  height: 600px;
+  margin-top: -20px;
+  background-image: url("./images/accessories.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.acess_last {
+  position: absolute;
+  top: 50px;
+  left: 530px;
+  font-size: 50px;
+  word-spacing: 3px;
+}
+.acess {
+  position: relative;
+  width: 17%;
+  height: 12px;
+  background-color: rgb(70, 68, 68);
+  top: 458px;
+  left: 550px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.acess_text {
+  position: absolute;
+  left: 70px;
+  color: #fff;
+  margin-top: -5px;
+  word-spacing: 5px;
+  font-size: 16px;
+}
+
+.acess_text {
+  text-decoration: none;
+}
+
+.last_word {
+  /* background-color: cornflowerblue; */
+  display: flex;
+  position: absolute;
+  top: 550px;
+  left: 350px;
+}
+
+.last_word ul li {
+  display: inline-flex;
+  margin: 0 8px;
+  color: rgb(70, 68, 68);
+}
